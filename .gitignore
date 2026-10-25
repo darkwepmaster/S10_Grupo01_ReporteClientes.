@@ -1,0 +1,24 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos temporales y pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+logs/
+
+# Reportes generados
+reports/*.xlsx
